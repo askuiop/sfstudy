@@ -1,0 +1,11 @@
+$base-color: red;
+
+html{
+    color: $base-color;
+    background: darkcyan;
+    font-size: 28px;
+
+    boby {
+        color: $base-color;
+    }
+}

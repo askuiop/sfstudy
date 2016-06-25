@@ -1,0 +1,18 @@
+{% extends 'JimsJbolgBundle::layout.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('dist/css/index.css'|asset_version) }}">
+{% endblock %}
+
+
+
+
+{% block body %}
+    <div class="show">hello,you!<i class="fa fa-heart"></i></div>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('dist/js/index.js'|asset_version) }}"></script>
+{% endblock %}
+

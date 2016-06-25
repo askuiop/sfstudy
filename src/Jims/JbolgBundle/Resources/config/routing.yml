@@ -1,0 +1,8 @@
+jims_jbolg_homepage:
+    path:     /blog
+    defaults: { _controller: JimsJbolgBundle:Default:index }
+
+jims_jbolg_post:
+    path:     /post
+    defaults: { _controller: JimsJbolgBundle:Default:post }
+

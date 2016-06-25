@@ -1,0 +1,20 @@
+{
+  "name": "utest",
+  "description": "no",
+  "main": "index.js",
+  "authors": [
+    "jims"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.3"
+  }
+}

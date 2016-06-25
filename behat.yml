@@ -1,0 +1,6 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://jims30.com/app_test.php
+            goutte: ~
+            selenium2: ~

@@ -1,0 +1,11 @@
+services:
+#    jims_jbolg.example:
+#        class: Jims\JbolgBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+
+    jims_jbolg.asset_version_twig_extension:
+        class: Jims\JbolgBundle\Resources\Twig\AssetVersionExtension
+        arguments: [ "%kernel.root_dir%" ]
+        tags:
+            - { name: twig.extension }
